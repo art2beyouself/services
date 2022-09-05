@@ -1,5 +1,5 @@
 FROM python:3.7
-LABEL maintainer "Amine Hadj-Youcef  <hadjyoucef.amine@gmail.com>"
+LABEL maintainer "Prime Source  <newid@bk.ru>"
 
 ENV APP_HOME /app
 
