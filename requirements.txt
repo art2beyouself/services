@@ -1,0 +1,21 @@
+# API
+fastapi
+uvicorn
+
+# Database & ORM
+sycopg2-binary
+sqlalchemy
+
+# Data science
+# numpy
+# pandas
+
+# computer vision
+# opencv-python
+# imutils
+
+# video streaming and downloading
+# pafy
+# youtube-dl
+# wget
+
