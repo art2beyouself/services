@@ -14,4 +14,4 @@ ResultSet = ResultProxy.fetchall()
 
 @app.get("/")
 async def root():
-    return(ResultSet)
+    return(ResultSet[:100])
