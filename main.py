@@ -5,7 +5,7 @@ from database import connection, db, metadata, engine
 app = FastAPI()
 
 
-suppliers = db.Table('suppliers', metadata, autoload=True, autoload_with=engine)
+suppliers = db.Table('suppliers_stage', metadata, autoload=True, autoload_with=engine)
 #Equivalent to 'SELECT * FROM census'
 query = db.select([suppliers])
 ResultProxy = connection.execute(query)
