@@ -1,5 +1,5 @@
 FROM python:3.7
-LABEL maintainer "Prime Source  <newid@bk.ru>"
+LABEL maintainer "Montana"
 
 ENV APP_HOME /app
 
